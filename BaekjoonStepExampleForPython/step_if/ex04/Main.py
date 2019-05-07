@@ -1,8 +1,6 @@
-rst = []
-lst = input().split(" ")
-lst = [int (i) for i in lst]
-num = input().split(" ")
-num = [int (i) for i in num]
-for i in num:
-    if i < lst[1]:
-        print(i, end=" ") 
+cntSub = int(input())
+jumsu = input().split(" ")
+jumsu = [int (i) for i in jumsu]
+jumsu.sort()
+jumsu = [i/jumsu[cntSub-1]*100 for i in jumsu]
+print('%.2f'%float(sum(jumsu)/cntSub))
