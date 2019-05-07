@@ -8,4 +8,4 @@ elif jum >= 70:
 elif jum >= 60:
     print("D")
 else:
-    print("F")
+    print("F!")
