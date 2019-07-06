@@ -5,7 +5,6 @@ target/
  
 # OS Files #
 .DS_Store
-  
 *.class
  
 # Package Files #
@@ -28,3 +27,6 @@ tmp/**/*
 *.bak
 local.properties
 /src/main/resources/rebel.xml
+
+# etc
+.vscode/launch.json
