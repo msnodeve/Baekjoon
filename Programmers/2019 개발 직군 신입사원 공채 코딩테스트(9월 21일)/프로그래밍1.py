@@ -1,8 +1,8 @@
 import re
 def solution(emails):
     result = 0
-    p = re.compile('^[a-zA-Z0-9+.]+@[a-zA-Z0-9-]+\.[com|net|org]+$')
-    for e in emails:
-        if p.match(e):
+    email_regex = re.compile('^[a-zA-Z0-9+.]+@[a-zA-Z0-9-]+\.[com|net|org]+$')
+    for email in emails:
+        if p.match(email):
             result += 1
     return result
