@@ -14,5 +14,4 @@ for i in range(N):
 	lst[pos] = arr[i]
 	if pos == l:
 		l += 1
-
 print(N-l)
