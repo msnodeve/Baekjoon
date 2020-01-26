@@ -1,4 +1,4 @@
-package Jungol.print;
+package Jongol.print;
 
 public class Main501 {
 	public static void main(String[] args) {
