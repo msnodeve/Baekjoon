@@ -30,3 +30,4 @@ local.properties
 
 # etc
 .vscode/launch.json
+.vscode
