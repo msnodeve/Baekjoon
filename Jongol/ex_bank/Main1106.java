@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class Main_1106_장기 {
+public class Main {
 	static int result;
 	static int rowN, colN;
 	static int horseR, horseC, jolR, jolC;
