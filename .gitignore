@@ -33,3 +33,8 @@ local.properties
 .vscode
 res
 .idea
+
+*iml
+out
+sample_input.txt
+Runner
